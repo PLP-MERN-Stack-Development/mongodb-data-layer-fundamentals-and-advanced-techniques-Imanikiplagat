@@ -4,7 +4,7 @@
 const { MongoClient } = require('mongodb');
 
 // Connection URI (replace with your MongoDB connection string if using Atlas)
-const uri = 'mongodb://localhost:27017';
+const uri ='mongodb+srv://plpstore:R9neZIGuK8VxJVNt@cluster0.vjv8rak.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0' ;
 
 // Database and collection names
 const dbName = 'plp_bookstore';
@@ -131,6 +131,106 @@ const books = [
     in_stock: true,
     pages: 342,
     publisher: 'Thomas Cautley Newby'
+  }, 
+  {
+    title: 'The Kite Runner',
+    author: 'Khaled Hosseini',
+    genre: 'Drama',
+    published_year: 2003,
+    price: 13.99,
+    in_stock: true,
+    pages: 371,
+    publisher: 'Riverhead Books'
+  },
+  {
+    title: 'The Da Vinci Code',
+    author: 'Dan Brown',
+    genre: 'Thriller',
+    published_year: 2003,
+    price: 15.99,
+    in_stock: true,
+    pages: 689,
+    publisher: 'Doubleday'
+  },
+  {
+  title: 'The Girl with the Dragon Tattoo',
+  author: 'Stieg Larsson',
+  genre: 'Mystery',
+  published_year: 2005,
+  price: 14.50,
+  in_stock: true,
+  pages: 465,
+  publisher: 'Norstedts Förlag'
+},
+{
+  title: 'The Fault in Our Stars',
+  author: 'John Green',
+  genre: 'Romance',
+  published_year: 2012,
+  price: 11.99,
+  in_stock: true,
+  pages: 313,
+  publisher: 'Dutton Books'
+},
+{
+  title: 'Becoming',
+  author: 'Michelle Obama',
+  genre: 'Biography',
+  published_year: 2018,
+  price: 18.99,
+  in_stock: true,
+  pages: 448,
+  publisher: 'Crown Publishing Group'
+},
+  {
+    title: "The Alchemist",
+    author: "Paulo Coelho",
+    genre: "Philosophical Fiction",
+    published_year: 1988,
+    price: 11.99,
+    in_stock: true,
+    pages: 208,
+    publisher: "HarperTorch"
+  },
+  {
+    title: "The Silent Patient",
+    author: "Alex Michaelides",
+    genre: "Thriller",
+    published_year: 2019,
+    price: 14.50,
+    in_stock: true,
+    pages: 336,
+    publisher: "Celadon Books"
+  },
+  {
+    title: "Becoming",
+    author: "Michelle Obama",
+    genre: "Autobiography",
+    published_year: 2018,
+    price: 16.99,
+    in_stock: true,
+    pages: 448,
+    publisher: "Crown Publishing Group"
+  },
+  {
+    title: "The Midnight Library",
+    author: "Matt Haig",
+    genre: "Fantasy",
+    published_year: 2020,
+    price: 13.25,
+    in_stock: false,
+    pages: 304,
+    publisher: "Canongate Books"
+  },
+  {
+    title: "Atomic Habits",
+    author: "James Clear",
+    genre: "Self-help",
+    published_year: 2018,
+    price: 18.00,
+    in_stock: true,
+    pages: 320,
+    publisher: "Avery"
   }
 ];
 
