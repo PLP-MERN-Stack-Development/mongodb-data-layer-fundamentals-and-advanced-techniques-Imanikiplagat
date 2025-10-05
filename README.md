@@ -26,9 +26,9 @@ A collection called books holds all book documents inserted from insert_books.js
 ## 📸 Screenshots
 
 ### MongoDB Compass
-(./screenshots/Screenshot 2025-10-04 130018.png)
+![Inserted Data](./screenshots/Screenshot 2025-10-04 130018.png)
 
-![Inserted Data](./screenshots/inserted_data.png)
+![Inserted Data](./screenshots/Screenshot 2025-10-04 133409.png)
 
 ## How to Run
 
