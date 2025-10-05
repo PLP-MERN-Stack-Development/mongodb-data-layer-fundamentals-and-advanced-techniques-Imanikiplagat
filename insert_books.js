@@ -1,10 +1,13 @@
 // insert_books.js - Script to populate MongoDB with sample book data
+require('dotenv').config();
+
 
 // Import MongoDB client
 const { MongoClient } = require('mongodb');
 
 // Connection URI (replace with your MongoDB connection string if using Atlas)
-const uri ='mongodb+srv://plpstore:R9neZIGuK8VxJVNt@cluster0.vjv8rak.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0' ;
+const uri = process.env.MONGODB_URI;
+
 
 // Database and collection names
 const dbName = 'plp_bookstore';
